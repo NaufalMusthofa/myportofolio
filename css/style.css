@@ -1,0 +1,144 @@
+@font-face {
+    font-family: 'Viga';
+    src: url('../fonts/Viga-Regular.ttf') format('truetype');
+}
+
+/* nama logo */
+.container .brand-logo {
+    font-family: 'Viga';
+}
+
+.slider h3, .slider h5,
+.parallax-container h3 {
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+}
+
+section {
+    padding: 10px 0;
+}
+
+section .row h6 {
+    padding-bottom: 5px;
+}
+
+
+/* profile */
+.profile .circle {
+    border: 3px solid white;
+}
+
+.profile .list-group-item {
+    margin: 7px 0;
+    padding: 4px 10px;
+}
+
+.profile .card-panel {
+    box-shadow: 5px 6px 5px rgba(0, 0, 0, 0.5);
+}
+
+
+/* about */
+.about .row .light {
+    line-height: 28px;
+}
+
+.about .card-panel {
+    box-shadow: 5px 6px 5px rgba(0, 0, 0, 0.5);
+}
+
+.about .list-group-item {
+    margin: 0px 0;
+    padding: 4px 10px;
+}
+
+.about .container .card-panel img {
+    border: 5px solid #fff;
+}
+
+.parallax-container {
+    height: 200px;
+}
+
+.parallax img {
+    filter: grayscale(1) !important;
+}
+
+.clients .m4 img {
+    max-width: 25%;
+}
+
+.clients .s4 img {
+    max-width: 30%;
+}
+
+/* our services */
+.services .container .card-panel {
+    height: 320px;
+}
+
+
+/* portfolio */
+.portfolio .card-panel {
+    max-height: 300px;
+}
+
+
+/* footer */
+footer {
+    text-align: center;
+    position: relative;
+    width: 100%;
+    height: 120px;
+    background-color: #333;
+    padding-top: 40px;
+}
+
+footer .footer {
+    text-align: center;
+    color: white;
+}
+
+.footer .blue {
+    padding: 5px;
+}
+
+.footer a {
+    text-indent: 5px;
+}
+
+.footer .fa-facebook {
+    margin-right: 3px;
+}
+
+.footer .fa-instagram {
+    margin-right: 3px;
+}
+
+.footer .fa-instagram {
+    margin-left: 17px;
+}
+
+.footer .facebook-link:hover {
+    border-radius: 2px;
+    background-color: white;
+    color: salmon !important;
+    transition: 0.3s;
+}
+
+.footer .instagram-link:hover {
+    border-radius: 2px;
+    background-color: white;
+    color: salmon !important;
+    transition: 0.3s;
+}
+
+
+
+/* TAMPILAN KHUSUS MOBILE */
+@media (max-width: 600px) { 
+    .navbar-fixed .container .nav-wrapper .brand-logo {
+        text-transform: capitalize;
+        font-size: 22px;
+        font-family: "viga";
+    }
+}
